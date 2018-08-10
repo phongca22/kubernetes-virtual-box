@@ -99,7 +99,7 @@ vi /etc/hostname
 Change default to specific name.
 
 # Create a Cluster on Master machine
-1. Init kubeadm with Calico NCI
+1. Init kubeadm with Calico CNI
 ``` bash
 kubeadm init --pod-network-cidr=192.168.0.0/16
 ```
